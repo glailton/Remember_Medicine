@@ -3,4 +3,15 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!--SMS-->
+    <string name="send_sms">Enviar SMS</string>
+    <string name="contact">Contato</string>
+    <string name="mensage_hint">Digite a Mensagem que deseja enviar</string>
+    <string name="hour">Hora</string>
+
+    <!--Button Send -->
+    <string name="button_send">Enviar</string>
+
+
 </resources>

@@ -1,3 +1,8 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:orientation="vertical"
@@ -11,12 +16,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/send_sms"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
 
     <Button
-        android:id="@+id/contact"
+        android:id="@+id/sel_contact_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/contact"/>
+
+    <Button
+        android:id="@+id/sel_contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/phone"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/show_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15.0sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/show_contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15.0sp"
+        android:visibility="gone" />
 
     <EditText
         android:id="@+id/send_message_hint"
@@ -43,3 +81,4 @@
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>

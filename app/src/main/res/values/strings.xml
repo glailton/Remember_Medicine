@@ -7,6 +7,7 @@
     <!--SMS-->
     <string name="send_sms">Enviar SMS</string>
     <string name="contact">Contato</string>
+    <string name="phone">Telefone</string>
     <string name="mensage_hint">Digite a Mensagem que deseja enviar</string>
     <string name="hour">Hora</string>
 
